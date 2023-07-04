@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="" />
+    <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss01_introduce_java/exercise/DocSoThanhChu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_introduce_java/exercise/quy_doi_tien_te.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_introduce_java/exercise/quy_doi_tien_te.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_introduce_java/exercise/ung_dung_doc_so_thanh_chu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss01_introduce_java/exercise/quy_doi_tien_te.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss01_introduce_java/exercise/quy_doi_tien_te.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss01_introduce_java/exercise/ung_dung_doc_so_thanh_chu.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,13 +57,39 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ung_dung_doc_so_thanh_chu">
+  <component name="RunManager" selected="Application.DocSoThanhChu">
+    <configuration name="DocSoThanhChu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss01_introduce_java.exercise.DocSoThanhChu" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss01_introduce_java.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="hien_thi_loi_chao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss01_introduce_java.exercise.hien_thi_loi_chao" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ss01_introduce_java.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hien_thi_ve_hinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss02_loop_java.exercise.hien_thi_ve_hinh" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss02_loop_java.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="su_dung_toan_tu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.su_dung_toan_tu" />
-      <module name="ss01_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="tinh_can_nang_co_the" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss01_introduce_java.practice.tinh_can_nang_co_the" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -103,26 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ung_dung_doc_so_thanh_chu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss01_introduce_java.exercise.ung_dung_doc_so_thanh_chu" />
-      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss01_introduce_java.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ung_dung_doc_so_thanh_chu" />
-        <item itemvalue="Application.quy_doi_tien_te" />
+        <item itemvalue="Application.DocSoThanhChu" />
+        <item itemvalue="Application.hien_thi_ve_hinh" />
         <item itemvalue="Application.hien_thi_loi_chao" />
+        <item itemvalue="Application.quy_doi_tien_te" />
         <item itemvalue="Application.tinh_can_nang_co_the" />
-        <item itemvalue="Application.su_dung_toan_tu" />
       </list>
     </recent_temporary>
   </component>
@@ -141,12 +148,25 @@
       <workItem from="1688389275527" duration="5341000" />
       <workItem from="1688395509543" duration="34000" />
       <workItem from="1688433229818" duration="5374000" />
-      <workItem from="1688445697259" duration="1070000" />
+      <workItem from="1688445697259" duration="5792000" />
+      <workItem from="1688462515137" duration="3466000" />
+      <workItem from="1688474438706" duration="1052000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
