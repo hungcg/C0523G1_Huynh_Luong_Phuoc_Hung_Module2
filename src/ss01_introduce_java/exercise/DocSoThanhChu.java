@@ -22,41 +22,41 @@ public class DocSoThanhChu {
                         }
                         break;
                     case '2':
-                        text += "hai ";
+                        text += " hai ";
                         break;
                     case '3':
-                        text += "ba ";
+                        text += " ba ";
                         break;
                     case '4':
-                        text += "bốn ";
+                        text += " bốn ";
                         break;
                     case '5':
-                        text += "năm ";
+                        text += " năm ";
                         break;
                     case '6':
-                        text += "sáu ";
+                        text += " sáu ";
                         break;
                     case '7':
-                        text += "bảy ";
+                        text += " bảy ";
                         break;
                     case '8':
-                        text += "tám ";
+                        text += " tám ";
                         break;
                     case '9':
-                        text += "chín ";
+                        text += " chín ";
                 }
 
                 switch (numberString.length() - i) {
                     case 2:
                         if (numberString.length() - i != 2) {
-                            text += "mươi ";
+                            text += " mươi ";
                         }
                         break;
                     case 3:
-                        text += "trăm ";
+                        text += " trăm ";
                         break;
                     case 4:
-                        text += "nghìn ";
+                        text += " nghìn ";
                 }
             }
         }
