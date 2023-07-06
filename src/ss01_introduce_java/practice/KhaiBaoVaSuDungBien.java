@@ -1,6 +1,6 @@
 package ss01_introduce_java.practice;
 
-public class khai_bao_va_su_dung_bien {
+public class KhaiBaoVaSuDungBien {
     public static void main(String[] args) {
         int i = 10;
         float f = 20.5f;

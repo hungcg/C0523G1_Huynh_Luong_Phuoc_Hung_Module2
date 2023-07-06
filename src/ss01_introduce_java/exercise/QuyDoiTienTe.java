@@ -1,9 +1,8 @@
 package ss01_introduce_java.exercise;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class quy_doi_tien_te {
+public class QuyDoiTienTe {
     public static void main(String[] args) {
         double usd;
         double vnd = 23000;

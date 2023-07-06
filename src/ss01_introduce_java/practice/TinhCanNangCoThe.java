@@ -2,7 +2,7 @@ package ss01_introduce_java.practice;
 
 import java.util.Scanner;
 
-public class tinh_can_nang_co_the {
+public class TinhCanNangCoThe {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

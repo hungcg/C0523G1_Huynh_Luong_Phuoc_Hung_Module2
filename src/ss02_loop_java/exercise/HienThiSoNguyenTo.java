@@ -8,7 +8,6 @@ public class HienThiSoNguyenTo {
         Scanner input = new Scanner(System.in);
         int numbers = input.nextInt();
         int count = 0;
-
         for (int n = 2; count < numbers; n++) {
             boolean check = true;
 
@@ -18,13 +17,11 @@ public class HienThiSoNguyenTo {
                     break;
                 }
             }
-
             if (check) {
                 System.out.println(n);
                 count++;
             }
         }
-
     }
 }
 

@@ -81,15 +81,12 @@ public class HienThiVeHinh {
                             for (k = i; k > i; --k) {
                                 System.out.print(" ");
                             }
-
                             for (k = 1; k <= i * 2 - 1; ++k) {
                                 System.out.print("*");
                                 break;
                             }
-
                             System.out.println();
                         }
-                        ;
                 }
             }
         }

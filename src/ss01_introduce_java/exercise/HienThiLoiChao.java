@@ -2,7 +2,7 @@ package ss01_introduce_java.exercise;
 
 import java.util.Scanner;
 
-public class hien_thi_loi_chao {
+public class HienThiLoiChao {
     public static void main(String[] args) {
         Scanner greeting = new Scanner(System.in);
         System.out.println("Nhập vào tên bạn");
