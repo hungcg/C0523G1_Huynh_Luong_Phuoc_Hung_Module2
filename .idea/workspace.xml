@@ -5,39 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss03_array_java/excercise/DemSoLanXuatHienCuaCacPhanTuTrongMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss03_array_java/excercise/GopMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss03_array_java/excercise/ThemPhanTuVaoMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss03_array_java/excercise/TimGiaTriNhoNhatTrongMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss03_array_java/excercise/TimPhanTuLonNhatMang2Chieu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss03_array_java/excercise/TinhTongCacSoOMotCotXacDinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss03_array_java/excercise/TinhTongSoDuongCheoCuaMaTran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss03_array_java/excercise/XoaPhanTuKhoiMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss03_array_java/practice/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss03_array_java/practice/demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss04_class_object_java/practice/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_introduce_java/exercise/hien_thi_loi_chao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_introduce_java/exercise/quy_doi_tien_te.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_introduce_java/practice/giai_phuong_trinh_bac_nhat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_introduce_java/practice/hienthithoigianhethong.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_introduce_java/practice/khai_bao_va_su_dung_bien.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_introduce_java/practice/su_dung_toan_tu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_introduce_java/practice/tinh_can_nang_co_the.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_introduce_java/practice/tinh_nam_nhuan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss02_loop_java/exercise/HienThiCacSoNguyenToBeHon100.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss02_loop_java/exercise/HienThiCacSoNguyenToBeHon100.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss02_loop_java/exercise/HienThiSoNguyenTo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss02_loop_java/exercise/HienThiSoNguyenTo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss02_loop_java/exercise/HienThiVeHinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss02_loop_java/exercise/HienThiVeHinh.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss01_introduce_java/exercise/hien_thi_loi_chao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss01_introduce_java/exercise/HienThiLoiChao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss01_introduce_java/exercise/quy_doi_tien_te.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss01_introduce_java/exercise/QuyDoiTienTe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss01_introduce_java/practice/giai_phuong_trinh_bac_nhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss01_introduce_java/practice/GiaiPhuongTrinhBacNhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss01_introduce_java/practice/hienthithoigianhethong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss01_introduce_java/practice/HienThiThoiGian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss01_introduce_java/practice/khai_bao_va_su_dung_bien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss01_introduce_java/practice/KhaiBaoVaSuDungBien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss01_introduce_java/practice/su_dung_toan_tu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss01_introduce_java/practice/SuDungToanTu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss01_introduce_java/practice/tinh_can_nang_co_the.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss01_introduce_java/practice/TinhCanNangCoThe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss01_introduce_java/practice/tinh_nam_nhuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss01_introduce_java/practice/TinhNamNhuan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss02_loop_java/exercise/HienThiCacSoNguyenToBeHon100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss02_loop_java/exercise/HienThiCacSoNguyenToBeHon100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss02_loop_java/exercise/HienThiSoNguyenTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss02_loop_java/exercise/HienThiSoNguyenTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss02_loop_java/exercise/HienThiVeHinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss02_loop_java/exercise/HienThiVeHinh.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +56,7 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemSoLanXuatHienCuaCacPhanTuTrongMang">
+  <component name="RunManager" selected="Application.Fan">
     <configuration name="DemSoLanXuatHienCuaCacPhanTuTrongMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss03_array_java.excercise.DemSoLanXuatHienCuaCacPhanTuTrongMang" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -98,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimGiaTriNhoNhatTrongMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss03_array_java.excercise.TimGiaTriNhoNhatTrongMang" />
+    <configuration name="Fan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss04_class_object_java.excercise.Fan" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss03_array_java.excercise.*" />
+          <option name="PATTERN" value="ss04_class_object_java.excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimPhanTuLonNhatMang2Chieu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss03_array_java.excercise.TimPhanTuLonNhatMang2Chieu" />
+    <configuration name="QuadraticEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss04_class_object_java.excercise.QuadraticEquation" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss03_array_java.excercise.*" />
+          <option name="PATTERN" value="ss04_class_object_java.excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TinhTongCacSoOMotCotXacDinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss03_array_java.excercise.TinhTongCacSoOMotCotXacDinh" />
+    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss04_class_object_java.practice.Rectangle" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss03_array_java.excercise.*" />
+          <option name="PATTERN" value="ss04_class_object_java.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TinhTongSoDuongCheoCuaMaTran" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss03_array_java.excercise.TinhTongSoDuongCheoCuaMaTran" />
+    <configuration name="StopWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss04_class_object_java.excercise.StopWatch" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss03_array_java.excercise.*" />
+          <option name="PATTERN" value="ss04_class_object_java.excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fan" />
+        <item itemvalue="Application.StopWatch" />
+        <item itemvalue="Application.QuadraticEquation" />
+        <item itemvalue="Application.Rectangle" />
         <item itemvalue="Application.DemSoLanXuatHienCuaCacPhanTuTrongMang" />
-        <item itemvalue="Application.TinhTongSoDuongCheoCuaMaTran" />
-        <item itemvalue="Application.TinhTongCacSoOMotCotXacDinh" />
-        <item itemvalue="Application.TimPhanTuLonNhatMang2Chieu" />
-        <item itemvalue="Application.TimGiaTriNhoNhatTrongMang" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +153,8 @@
       <workItem from="1688482469658" duration="955000" />
       <workItem from="1688519394139" duration="19438000" />
       <workItem from="1688560341068" duration="6135000" />
-      <workItem from="1688611915200" duration="17721000" />
+      <workItem from="1688611915200" duration="18903000" />
+      <workItem from="1688699048342" duration="8556000" />
     </task>
     <servers />
   </component>
