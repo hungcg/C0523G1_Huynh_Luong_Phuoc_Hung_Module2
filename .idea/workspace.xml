@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/Fan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/StopWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss04_class_object_java/practice/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss05_access_modifer_static/practice/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss05_access_modifer_static/practice/StaticMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss04_class_object_java/excercise/Fan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss04_class_object_java/excercise/Fan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/Fan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +56,13 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fan">
-    <configuration name="DemSoLanXuatHienCuaCacPhanTuTrongMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss03_array_java.excercise.DemSoLanXuatHienCuaCacPhanTuTrongMang" />
+  <component name="RunManager" selected="Application.Car">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss05_access_modifer_static.practice.Car" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss03_array_java.excercise.*" />
+          <option name="PATTERN" value="ss05_access_modifer_static.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss04_class_object_java.practice.Rectangle" />
+    <configuration name="StaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss05_access_modifer_static.practice.StaticMethod" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss04_class_object_java.practice.*" />
+          <option name="PATTERN" value="ss05_access_modifer_static.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Car" />
+        <item itemvalue="Application.StaticMethod" />
         <item itemvalue="Application.Fan" />
         <item itemvalue="Application.StopWatch" />
         <item itemvalue="Application.QuadraticEquation" />
-        <item itemvalue="Application.Rectangle" />
-        <item itemvalue="Application.DemSoLanXuatHienCuaCacPhanTuTrongMang" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,7 @@
       <workItem from="1688519394139" duration="19438000" />
       <workItem from="1688560341068" duration="6135000" />
       <workItem from="1688611915200" duration="18903000" />
-      <workItem from="1688699048342" duration="8556000" />
+      <workItem from="1688699048342" duration="11677000" />
     </task>
     <servers />
   </component>

@@ -9,10 +9,8 @@ public class Fan {
     private double radius = 5;
     private String color = "blue";
 
-    private Fan() {
-    }
 
-    private Fan(int speed, boolean on, double radius, String color) {
+    private Fan() {
         this.speed = speed;
         this.on = on;
         this.radius = radius;
@@ -61,9 +59,15 @@ public class Fan {
     }
 
     public static void main(String[] args) {
-        Fan fanOne = new Fan(fast, true, 30, "blue");
-        Fan fanTwo = new Fan(medium, true, 50, "red");
+        Fan fanOne = new Fan();
+        Fan fanTwo = new Fan();
+        fanTwo.setOn(true);
+        fanTwo.setSpeed(fast);
+        fanTwo.setRadius(30);
+        fanTwo.setColor("green");
+        fanOne.setOn(false);
         System.out.println(fanTwo);
         System.out.println(fanOne);
     }
+
 }
