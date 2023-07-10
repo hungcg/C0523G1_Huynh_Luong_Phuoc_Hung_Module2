@@ -1,16 +1,16 @@
-package ss04_class_object_java.excercise;
+package ss04_class_object_java.excercise.fan;
 
 public class Fan {
-    private static final int slow = 1;
-    private static final int medium = 2;
-    private static final int fast = 3;
-    private int speed = slow;
+    public static final int SLOW = 1;
+    public static final int MEDIUM = 2;
+    public static final int FAST = 3;
+    private int speed = SLOW;
     private boolean on = false;
     private double radius = 5;
     private String color = "blue";
 
 
-    private Fan() {
+    public Fan() {
         this.speed = speed;
         this.on = on;
         this.radius = radius;
@@ -56,18 +56,6 @@ public class Fan {
         } else {
             return "Fan is Off";
         }
-    }
-
-    public static void main(String[] args) {
-        Fan fanOne = new Fan();
-        Fan fanTwo = new Fan();
-        fanTwo.setOn(true);
-        fanTwo.setSpeed(fast);
-        fanTwo.setRadius(30);
-        fanTwo.setColor("green");
-        fanOne.setOn(false);
-        System.out.println(fanTwo);
-        System.out.println(fanOne);
     }
 
 }

@@ -1,34 +1,8 @@
-package ss04_class_object_java.excercise;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+package ss04_class_object_java.excercise.quadraticequation;
 
 import java.util.Scanner;
 
-public class QuadraticEquation {
-    double a, b, c;
-
-
-    public QuadraticEquation() {
-    }
-
-    public QuadraticEquation(double a, double b, double c) {
-        this.a = a;
-        this.b = b;
-        this.c = c;
-    }
-
-    public double getDiscriminant() {
-        return (b * b - 4 * (a * c));
-    }
-
-    public double getRoot1() {
-        return (-b + Math.sqrt(getDiscriminant()) / 2 * a);
-    }
-
-    public double getRoot2() {
-        return (-b - Math.sqrt(getDiscriminant()) / 2 * a);
-    }
-
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a");
@@ -48,6 +22,4 @@ public class QuadraticEquation {
 
         }
     }
-
-
 }
