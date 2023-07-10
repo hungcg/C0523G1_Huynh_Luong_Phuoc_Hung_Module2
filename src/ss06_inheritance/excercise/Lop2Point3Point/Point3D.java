@@ -1,4 +1,4 @@
-package ss06_inheritance.excercise;
+package ss06_inheritance.excercise.Lop2Point3Point;
 
 import java.util.Arrays;
 

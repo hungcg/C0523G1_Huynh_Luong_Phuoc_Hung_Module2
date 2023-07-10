@@ -1,4 +1,4 @@
-package ss06_inheritance.excercise;
+package ss06_inheritance.excercise.CircleCylinder;
 
 public class Circle {
     protected double radius = 1;

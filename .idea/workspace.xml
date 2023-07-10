@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/MovablePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Point3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/practice/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/practice/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss05_access_modifer_static/excercise/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss05_access_modifer_static/excercise/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss05_access_modifer_static/excercise/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss05_access_modifer_static/excercise/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/MovablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/MovablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Point2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Point3D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +61,11 @@
   </component>
   <component name="RunManager" selected="Application.MovablePoint">
     <configuration name="Cylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss06_inheritance.excercise.Cylinder" />
+      <option name="MAIN_CLASS_NAME" value="ss06_inheritance.excercise.CircleCylinder.Cylinder" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss06_inheritance.excercise.*" />
+          <option name="PATTERN" value="ss06_inheritance.excercise.LopVaMovablePoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,11 +74,11 @@
       </method>
     </configuration>
     <configuration name="MovablePoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss06_inheritance.excercise.MovablePoint" />
+      <option name="MAIN_CLASS_NAME" value="ss06_inheritance.excercise.LopVaMovablePoint.MovablePoint" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss06_inheritance.excercise.*" />
+          <option name="PATTERN" value="ss06_inheritance.excercise.LopVaMovablePoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,11 +87,11 @@
       </method>
     </configuration>
     <configuration name="Point3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss06_inheritance.excercise.Point3D" />
+      <option name="MAIN_CLASS_NAME" value="ss06_inheritance.excercise.Lop2Point3Point.Point3D" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss06_inheritance.excercise.*" />
+          <option name="PATTERN" value="ss06_inheritance.excercise.LopVaMovablePoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,7 +161,7 @@
       <workItem from="1688913236394" duration="264000" />
       <workItem from="1688915017554" duration="632000" />
       <workItem from="1688957374868" duration="3034000" />
-      <workItem from="1688960451728" duration="9138000" />
+      <workItem from="1688960451728" duration="9439000" />
     </task>
     <servers />
   </component>

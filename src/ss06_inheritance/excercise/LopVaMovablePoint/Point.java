@@ -1,4 +1,4 @@
-package ss06_inheritance.excercise;
+package ss06_inheritance.excercise.LopVaMovablePoint;
 
 public class Point {
     float x = 0.0F;

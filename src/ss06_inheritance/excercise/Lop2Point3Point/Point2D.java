@@ -1,4 +1,4 @@
-package ss06_inheritance.excercise;
+package ss06_inheritance.excercise.Lop2Point3Point;
 
 public class Point2D {
     protected float x = 0.0f;
