@@ -5,23 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/fan/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/quadraticequation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/stopwatch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Colorable/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Resizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/practice/Animal/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/practice/Animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/practice/Animal/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/practice/Animal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/practice/Animal/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/practice/Animal/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/practice/Animal/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss07_abstraction/practice/Animal/Tiger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss04_class_object_java/excercise/Fan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss04_class_object_java/excercise/QuadraticEquation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss04_class_object_java/excercise/StopWatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss06_inheritance/excercise/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss06_inheritance/excercise/Cylinder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss06_inheritance/excercise/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss06_inheritance/excercise/MovablePoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss06_inheritance/excercise/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss06_inheritance/excercise/Point2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss06_inheritance/excercise/Point3D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/fan/Fan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/quadraticequation/QuadraticEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/StopWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss04_class_object_java/excercise/stopwatch/StopWatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss04_class_object_java/excercise/stopwatch/StopWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss04_class_object_java/excercise/stopwatch/StopWatch.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -69,20 +70,7 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ss04_class_object_java.excercise.stopwatch.Main">
-    <configuration name="Cylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss06_inheritance.excercise.CircleCylinder.Cylinder" />
-      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss06_inheritance.excercise.LopVaMovablePoint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss04_class_object_java.excercise.quadraticequation.Main" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -122,6 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss07_abstraction.excercise.Resizeable.Test" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss07_abstraction.excercise.Resizeable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ss04_class_object_java.excercise.stopwatch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss04_class_object_java.excercise.stopwatch.Main" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ss04_class_object_java.excercise.stopwatch.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MovablePoint" />
         <item itemvalue="Application.Point3D" />
-        <item itemvalue="Application.Cylinder" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +174,7 @@
       <workItem from="1688957374868" duration="3034000" />
       <workItem from="1688960451728" duration="10187000" />
       <workItem from="1688977346847" duration="3616000" />
+      <workItem from="1689044390141" duration="8873000" />
     </task>
     <servers />
   </component>
