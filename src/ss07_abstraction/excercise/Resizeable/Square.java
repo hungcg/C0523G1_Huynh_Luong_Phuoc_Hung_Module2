@@ -1,6 +1,8 @@
 package ss07_abstraction.excercise.Resizeable;
 
-public class Square extends Rectangle {
+import ss07_abstraction.excercise.Colorable.Colorable;
+
+public class Square extends Rectangle implements Colorable {
     private double side;
 
     public Square() {
@@ -37,4 +39,10 @@ public class Square extends Rectangle {
     public void resize(double percent) {
         setSide(this.side += percent);
     }
+
+
+    @Override
+    public void howToColor() {
+    }
+
 }
