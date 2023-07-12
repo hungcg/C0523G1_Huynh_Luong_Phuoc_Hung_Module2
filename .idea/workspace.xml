@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/TennisGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/practice/Reflactoring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Colorable/Colorable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Colorable/Colorable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Colorable/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Colorable/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ss07_abstraction.excercise.Colorable.Test">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss04_class_object_java.excercise.quadraticequation.Main" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -161,7 +160,8 @@
       <workItem from="1688957374868" duration="3034000" />
       <workItem from="1688960451728" duration="10187000" />
       <workItem from="1688977346847" duration="3616000" />
-      <workItem from="1689044390141" duration="10518000" />
+      <workItem from="1689044390141" duration="11211000" />
+      <workItem from="1689130689497" duration="3836000" />
     </task>
     <servers />
   </component>
