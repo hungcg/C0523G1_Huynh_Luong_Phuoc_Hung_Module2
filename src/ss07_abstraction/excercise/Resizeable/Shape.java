@@ -29,6 +29,8 @@ public class Shape implements Resizeable {
         this.filled = filled;
     }
 
+    ;
+
     @Override
     public String toString() {
         return "A Shape with color of "

@@ -1,8 +1,8 @@
 package ss06_inheritance.excercise.LopVaMovablePoint;
 
 public class Point {
-    float x = 0.0F;
-    float y = 0.0F;
+    float x;
+    float y;
 
     protected Point() {
     }
@@ -43,8 +43,4 @@ public class Point {
         return "Point{" + "x=" + x + ", y=" + y + '}';
     }
 
-    public static void main(String[] args) {
-        Point point = new Point();
-        System.out.println(point);
-    }
 }

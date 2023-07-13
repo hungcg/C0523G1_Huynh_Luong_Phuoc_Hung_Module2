@@ -1,8 +1,8 @@
 package ss06_inheritance.excercise.CircleCylinder;
 
 public class Circle {
-    protected double radius = 1;
-    protected String color = "red";
+    protected double radius ;
+    protected String color ;
 
     protected Circle(double radius, String color) {
         this.color = color;

@@ -1,8 +1,8 @@
 package ss06_inheritance.excercise.Lop2Point3Point;
 
 public class Point2D {
-    protected float x = 0.0f;
-    protected float y = 0.0f;
+    protected float x;
+    protected float y;
 
     protected Point2D(float x, float y) {
         this.x = x;
@@ -44,8 +44,4 @@ public class Point2D {
         return "Point2D{" + "x=" + x + ", y=" + y + '}';
     }
 
-    public static void main(String[] args) {
-        Point2D point2D = new Point2D();
-        System.out.println(point2D);
-    }
 }

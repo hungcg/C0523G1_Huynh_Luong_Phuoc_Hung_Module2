@@ -51,14 +51,4 @@ public class MovablePoint extends Point {
         y += ySpeed;
         return this;
     }
-
-    public static void main(String[] args) {
-        MovablePoint movablePoint = new MovablePoint();
-        System.out.println(movablePoint);
-        movablePoint.setXY(10.0f, 20.0f);
-        movablePoint.setSpeed(1.0f, 1.2f);
-        System.out.println(movablePoint);
-        movablePoint.move();
-        System.out.println(movablePoint);
-    }
 }

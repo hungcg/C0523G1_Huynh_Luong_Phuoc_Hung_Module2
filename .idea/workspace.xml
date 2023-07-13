@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/TennisGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/practice/Reflactoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Point2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Point3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/MovablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/MovablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,26 +64,13 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ss06_inheritance.excercise.LopVaMovablePoint.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss04_class_object_java.excercise.quadraticequation.Main" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ss04_class_object_java.excercise.quadraticequation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovablePoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss06_inheritance.excercise.LopVaMovablePoint.MovablePoint" />
-      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss06_inheritance.excercise.LopVaMovablePoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ss06_inheritance.excercise.LopVaMovablePoint.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss06_inheritance.excercise.LopVaMovablePoint.Test" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss06_inheritance.excercise.LopVaMovablePoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ss07_abstraction.excercise.Colorable.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss07_abstraction.excercise.Colorable.Test" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -124,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ss06_inheritance.excercise.LopVaMovablePoint.Test" />
         <item itemvalue="Application.ss07_abstraction.excercise.Colorable.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ss04_class_object_java.excercise.stopwatch.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MovablePoint" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +169,8 @@
       <workItem from="1688960451728" duration="10187000" />
       <workItem from="1688977346847" duration="3616000" />
       <workItem from="1689044390141" duration="11211000" />
-      <workItem from="1689130689497" duration="3836000" />
+      <workItem from="1689130689497" duration="4936000" />
+      <workItem from="1689210674568" duration="408000" />
     </task>
     <servers />
   </component>

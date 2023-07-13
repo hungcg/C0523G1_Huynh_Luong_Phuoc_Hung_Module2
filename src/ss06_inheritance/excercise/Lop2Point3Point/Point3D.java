@@ -3,7 +3,7 @@ package ss06_inheritance.excercise.Lop2Point3Point;
 import java.util.Arrays;
 
 public class Point3D extends Point2D {
-    private float z = 0.0F;
+    private float z;
 
     protected Point3D(float x, float y, float z) {
         super(x, y);
@@ -36,10 +36,5 @@ public class Point3D extends Point2D {
     @Override
     public String toString() {
         return "Point3D{" + "z=" + z + ", x=" + x + ", y=" + y + ", array 3D= " + Arrays.toString(getXYZ()) + "}";
-    }
-
-    public static void main(String[] args) {
-        Point3D point3D = new Point3D(1, 2, 3);
-        System.out.println(point3D);
     }
 }
