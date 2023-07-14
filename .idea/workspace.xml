@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/cotroller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/excercise/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/excercise/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/practice/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/practice/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/practice/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/practice/TestMyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/CircleCylinder/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Point2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Point2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/Lop2Point3Point/Point3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/MovablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/MovablePoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss06_inheritance/excercise/LopVaMovablePoint/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss07_abstraction/excercise/Resizeable/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss06_inheritance/excercise/Lop2Point3Point/Point3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss06_inheritance/excercise/Lop2Point3Point/Point3D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/TennisGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +55,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss01_java/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -59,18 +65,21 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ss08_cleancode_reflactoring.excercise.MVC.service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src\ss01_introduce_java\practice" />
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ss06_inheritance.excercise.LopVaMovablePoint.Test">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss04_class_object_java.excercise.quadraticequation.Main" />
+  <component name="RunManager" selected="Application.Test$Student">
+    <configuration name="CustomerController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss08_cleancode_reflactoring.excercise.MVC.cotroller.CustomerController" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss04_class_object_java.excercise.quadraticequation.*" />
+          <option name="PATTERN" value="ss08_cleancode_reflactoring.excercise.MVC.cotroller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss07_abstraction.excercise.Resizeable.Test" />
+    <configuration name="Test$Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_dsa.excercise.Test$Student" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss07_abstraction.excercise.Resizeable.*" />
+          <option name="PATTERN" value="ss10_dsa.excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss04_class_object_java.excercise.stopwatch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss04_class_object_java.excercise.stopwatch.Main" />
+    <configuration name="TestMyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_dsa.practice.TestMyList" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss04_class_object_java.excercise.stopwatch.*" />
+          <option name="PATTERN" value="ss10_dsa.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test$Student" />
+        <item itemvalue="Application.CustomerController" />
+        <item itemvalue="Application.TestMyList" />
         <item itemvalue="Application.ss06_inheritance.excercise.LopVaMovablePoint.Test" />
         <item itemvalue="Application.ss07_abstraction.excercise.Colorable.Test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ss04_class_object_java.excercise.stopwatch.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +179,9 @@
       <workItem from="1688977346847" duration="3616000" />
       <workItem from="1689044390141" duration="11211000" />
       <workItem from="1689130689497" duration="4936000" />
-      <workItem from="1689210674568" duration="408000" />
+      <workItem from="1689210674568" duration="16862000" />
+      <workItem from="1689254010792" duration="5896000" />
+      <workItem from="1689303340011" duration="14688000" />
     </task>
     <servers />
   </component>
@@ -230,6 +241,25 @@
           <url>file://$PROJECT_DIR$/src/ss06_inheritance/practice/Shape.java</url>
           <line>36</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/AppData/Local/Temp/Rar$DRa1824.44574/ss08_mvc/controller/StudentController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/CustomerRepositoryImpl.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss10_dsa/excercise/MyList.java</url>
+          <line>94</line>
+          <properties class="ss10_dsa.excercise.MyList" method="indexOf">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

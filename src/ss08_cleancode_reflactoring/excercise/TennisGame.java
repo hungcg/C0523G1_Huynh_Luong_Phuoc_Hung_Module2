@@ -11,7 +11,6 @@ public class TennisGame {
         } else {
             score = score(playerScore1, playerScore2);
         }
-
         return score;
     }
 
@@ -33,7 +32,6 @@ public class TennisGame {
             default:
                 score = "Deuce";
         }
-
         return score;
     }
 
@@ -46,7 +44,6 @@ public class TennisGame {
                 score = score + "-";
                 tempScore = playerScore2;
             }
-
             switch (tempScore) {
                 case 0:
                     score = score + "Love";
@@ -61,7 +58,6 @@ public class TennisGame {
                     score = score + "Forty";
             }
         }
-
         return score;
     }
 
@@ -77,7 +73,6 @@ public class TennisGame {
         } else {
             score = "Win for player2";
         }
-
         return score;
     }
 }
