@@ -1,78 +1,78 @@
 package ss08_cleancode_reflactoring.excercise;
 
 public class TennisGame {
-    public static String getScore(String player1Name, String player2Name, int playerScore1, int playerScore2) {
-        String score = "";
-        boolean tempScore = false;
-        if (playerScore1 == playerScore2) {
-            score = compareScore(playerScore1);
-        } else if (playerScore1 < 4 && playerScore2 < 4) {
-            score = compareTempScore(playerScore1, playerScore2, score);
+    public static final char MINUS = '-';
+    public static final int ZERO = 0;
+    public static final int ONE = 1;
+    public static final int TWO = 2;
+    public static final int THREE = 3;
+
+    public static String getScore(int scoreOfPlay1, int scoreOfPlay2) {
+        String result = "";
+        int tempScore = 0;
+        if (scoreOfPlay1 == scoreOfPlay2) {
+            result = getString(scoreOfPlay1);
         } else {
-            score = score(playerScore1, playerScore2);
+
+            boolean a = scoreOfPlay1 >= 4 || scoreOfPlay2 >= 4;
+            if (a) {
+                int minusResult = scoreOfPlay1 - scoreOfPlay2;
+                if (minusResult == 1) result = "Advantage player1";
+                else if (minusResult == -1) result = "Advantage player2";
+                else if (minusResult >= 2) result = "Win for player1";
+                else result = "Win for player2";
+            } else {
+                for (int i = 1; i < 3; i++) {
+                    if (i == 1) tempScore = scoreOfPlay1;
+                    else {
+                        result += MINUS;
+                        tempScore = scoreOfPlay2;
+                    }
+                    result = getResult(result, tempScore);
+                }
+            }
         }
-        return score;
+        return result;
     }
 
-    private static String compareScore(int playerScore1) {
-        String score;
-        switch (playerScore1) {
-            case 0:
-                score = "Love-All";
+    private static String getResult(String result, int tempScore) {
+        switch (tempScore) {
+            case ZERO:
+                result += "Love";
                 break;
-            case 1:
-                score = "Fifteen-All";
+            case ONE:
+                result += "Fifteen";
                 break;
-            case 2:
-                score = "Thirty-All";
+            case TWO:
+                result += "Thirty";
                 break;
-            case 3:
-                score = "Forty-All";
+            case THREE:
+                result += "Forty";
+                break;
+        }
+        return result;
+    }
+
+    private static String getString(int scoreOfPlay1) {
+        String result;
+        switch (scoreOfPlay1) {
+            case ZERO:
+                result = "Love-All";
+                break;
+            case ONE:
+                result = "Fifteen-All";
+                break;
+            case TWO:
+                result = "Thirty-All";
+                break;
+            case THREE:
+                result = "Forty-All";
                 break;
             default:
-                score = "Deuce";
-        }
-        return score;
-    }
+                result = "Deuce";
+                break;
 
-    private static String compareTempScore(int playerScore1, int playerScore2, String score) {
-        for (int i = 1; i < 3; ++i) {
-            int tempScore;
-            if (i == 1) {
-                tempScore = playerScore1;
-            } else {
-                score = score + "-";
-                tempScore = playerScore2;
-            }
-            switch (tempScore) {
-                case 0:
-                    score = score + "Love";
-                    break;
-                case 1:
-                    score = score + "Fifteen";
-                    break;
-                case 2:
-                    score = score + "Thirty";
-                    break;
-                case 3:
-                    score = score + "Forty";
-            }
         }
-        return score;
-    }
-
-    private static String score(int playerScore1, int playerScore2) {
-        int minusResult = playerScore1 - playerScore2;
-        String score;
-        if (minusResult == 1) {
-            score = "Advantage player1";
-        } else if (minusResult == -1) {
-            score = "Advantage player2";
-        } else if (minusResult >= 2) {
-            score = "Win for player1";
-        } else {
-            score = "Win for player2";
-        }
-        return score;
+        return result;
     }
 }

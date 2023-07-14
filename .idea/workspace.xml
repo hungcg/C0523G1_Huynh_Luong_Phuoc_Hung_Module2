@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/cotroller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/CustomerRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/ICustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/view/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/excercise/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/excercise/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/practice/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/practice/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/practice/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa/practice/TestMyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss06_inheritance/excercise/Lop2Point3Point/Point3D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss06_inheritance/excercise/Lop2Point3Point/Point3D.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/TennisGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +167,7 @@
       <workItem from="1689130689497" duration="4936000" />
       <workItem from="1689210674568" duration="16862000" />
       <workItem from="1689254010792" duration="5896000" />
-      <workItem from="1689303340011" duration="14688000" />
+      <workItem from="1689303340011" duration="16080000" />
     </task>
     <servers />
   </component>
