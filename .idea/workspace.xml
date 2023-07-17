@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/Optional/CheckBracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/Optional/ChuyenNhiPhanSangThapPhan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/Optional/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/reverse_element/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/reverse_element/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/repository/CustomerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/repository/ICustomerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/service/SortByCustomerType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss08_cleancode_reflactoring/excercise/TennisGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss08_cleancode_reflactoring/excercise/TennisGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss10_dsa/excercise/Test$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss10_dsa/excercise/Test$Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/cotroller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/cotroller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/CustomerRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/ICustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/Optional/check_bracket/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,7 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomerController">
+  <component name="RunManager" selected="Application.ss08_cleancode_reflactoring.excercise.mvc.controller.CustomerController">
     <configuration name="CheckBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.excercise.Optional.CheckBracket" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -123,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.excercise.reverse_element.ReverseString" />
+    <configuration name="ss08_cleancode_reflactoring.excercise.mvc.controller.CustomerController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss08_cleancode_reflactoring.excercise.mvc.controller.CustomerController" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsa_stack_queue.excercise.Optional.*" />
+          <option name="PATTERN" value="ss08_cleancode_reflactoring.excercise.mvc.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ss08_cleancode_reflactoring.excercise.mvc.controller.CustomerController" />
         <item itemvalue="Application.CustomerController" />
         <item itemvalue="Application.CheckBracket" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.ChuyenNhiPhanSangThapPhan" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +176,8 @@
       <workItem from="1689254010792" duration="5896000" />
       <workItem from="1689303340011" duration="18488000" />
       <workItem from="1689475642566" duration="4579000" />
-      <workItem from="1689563183920" duration="15813000" />
+      <workItem from="1689563183920" duration="16039000" />
+      <workItem from="1689598291650" duration="1857000" />
     </task>
     <servers />
   </component>
