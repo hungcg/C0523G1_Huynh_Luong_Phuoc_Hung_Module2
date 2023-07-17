@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/Optional/CheckBracket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/Optional/ChuyenNhiPhanSangThapPhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/Optional/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/reverse_element/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/reverse_element/ReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/TennisGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss08_cleancode_reflactoring/excercise/TennisGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss08_cleancode_reflactoring/excercise/TennisGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss10_dsa/excercise/Test$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss10_dsa/excercise/Test$Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/cotroller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/cotroller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/CustomerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/ICustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/service/ICustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +70,33 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test$Student">
+  <component name="RunManager" selected="Application.CustomerController">
+    <configuration name="CheckBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.excercise.Optional.CheckBracket" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss11_dsa_stack_queue.excercise.Optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChuyenNhiPhanSangThapPhan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.excercise.Optional.ChuyenNhiPhanSangThapPhan" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss11_dsa_stack_queue.excercise.Optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss08_cleancode_reflactoring.excercise.MVC.cotroller.CustomerController" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -73,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test$Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10_dsa.excercise.Test$Student" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.excercise.Optional.Palindrome" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss10_dsa.excercise.*" />
+          <option name="PATTERN" value="ss11_dsa_stack_queue.excercise.Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,38 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10_dsa.practice.TestMyList" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.excercise.reverse_element.ReverseString" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss10_dsa.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ss06_inheritance.excercise.LopVaMovablePoint.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss06_inheritance.excercise.LopVaMovablePoint.Test" />
-      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss06_inheritance.excercise.LopVaMovablePoint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ss07_abstraction.excercise.Colorable.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss07_abstraction.excercise.Colorable.Test" />
-      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss07_abstraction.excercise.Colorable.*" />
+          <option name="PATTERN" value="ss11_dsa_stack_queue.excercise.Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test$Student" />
         <item itemvalue="Application.CustomerController" />
-        <item itemvalue="Application.TestMyList" />
-        <item itemvalue="Application.ss06_inheritance.excercise.LopVaMovablePoint.Test" />
-        <item itemvalue="Application.ss07_abstraction.excercise.Colorable.Test" />
+        <item itemvalue="Application.CheckBracket" />
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.ChuyenNhiPhanSangThapPhan" />
+        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +178,9 @@
       <workItem from="1689130689497" duration="4936000" />
       <workItem from="1689210674568" duration="16862000" />
       <workItem from="1689254010792" duration="5896000" />
-      <workItem from="1689303340011" duration="16080000" />
+      <workItem from="1689303340011" duration="18488000" />
+      <workItem from="1689475642566" duration="4579000" />
+      <workItem from="1689563183920" duration="15813000" />
     </task>
     <servers />
   </component>
@@ -235,7 +248,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/MVC/repository/CustomerRepositoryImpl.java</url>
-          <line>59</line>
+          <line>35</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
