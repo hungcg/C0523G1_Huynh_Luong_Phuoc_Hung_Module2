@@ -42,8 +42,8 @@ public class CustomerService implements ICustomerService {
     @Override
     public void findByName() {
         System.out.println("Enter name:");
-        String searchname = scanner.next();
-        repository.findByName(searchname);
+        String searchName = scanner.next();
+        repository.findByName(searchName);
     }
 
     @Override

@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/repository/CustomerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/repository/ICustomerRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/service/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/service/SortByCustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/CountElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/mvc/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/mvc/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/mvc/repository/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/mvc/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/mvc/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/mvc/service/SortByPriceDecrease.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/mvc/service/SortByPriceIncrease.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/excercise/Optional/check_bracket/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss08_cleancode_reflactoring/excercise/MVC/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss08_cleancode_reflactoring/excercise/MVC/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss08_cleancode_reflactoring/excercise/MVC/repository/CustomerRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss08_cleancode_reflactoring/excercise/MVC/repository/CustomerRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss08_cleancode_reflactoring/excercise/MVC/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss08_cleancode_reflactoring/excercise/MVC/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/repository/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/repository/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss08_cleancode_reflactoring/excercise/mvc/service/CustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +71,7 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ss08_cleancode_reflactoring.excercise.mvc.controller.CustomerController">
+  <component name="RunManager" selected="Application.ProductController">
     <configuration name="CheckBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.excercise.Optional.CheckBracket" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -80,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChuyenNhiPhanSangThapPhan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.excercise.Optional.ChuyenNhiPhanSangThapPhan" />
+    <configuration name="CountElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12_java_collection_framework.CountElements" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsa_stack_queue.excercise.Optional.*" />
+          <option name="PATTERN" value="ss12_java_collection_framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.excercise.Optional.Palindrome" />
+    <configuration name="ProductController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12_java_collection_framework.mvc.controller.ProductController" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsa_stack_queue.excercise.Optional.*" />
+          <option name="PATTERN" value="ss12_java_collection_framework.mvc.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductController" />
+        <item itemvalue="Application.CountElements" />
+        <item itemvalue="Application.CheckBracket" />
         <item itemvalue="Application.ss08_cleancode_reflactoring.excercise.mvc.controller.CustomerController" />
         <item itemvalue="Application.CustomerController" />
-        <item itemvalue="Application.CheckBracket" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.ChuyenNhiPhanSangThapPhan" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +182,9 @@
       <workItem from="1689303340011" duration="18488000" />
       <workItem from="1689475642566" duration="4579000" />
       <workItem from="1689563183920" duration="16039000" />
-      <workItem from="1689598291650" duration="1857000" />
+      <workItem from="1689598291650" duration="2807000" />
+      <workItem from="1689643260247" duration="7701000" />
+      <workItem from="1689735791065" duration="11116000" />
     </task>
     <servers />
   </component>
@@ -248,6 +255,11 @@
           <line>35</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss12_java_collection_framework/mvc/controller/ProductController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ss10_dsa/excercise/MyList.java</url>
           <line>94</line>
@@ -257,10 +269,31 @@
           </properties>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss12_java_collection_framework/mvc/repository/ProductRepo.java</url>
+          <line>32</line>
+          <properties class="ss12_java_collection_framework.mvc.repository.ProductRepo" method="update">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss12_java_collection_framework/mvc/service/ProductService.java</url>
+          <line>35</line>
+          <properties class="ss12_java_collection_framework.mvc.service.ProductService" method="update">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/C0523G1_Huynh_Luong_Phuoc_Hung_Module2$Main.ic" NAME="Main Coverage Results" MODIFIED="1688391362381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/C0523G1_Huynh_Luong_Phuoc_Hung_Module2$ProductController.ic" NAME="ProductController Coverage Results" MODIFIED="1689749794462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ss12_java_collection_framework.mvc.controller.*</FILTER>
+    </SUITE>
   </component>
 </project>

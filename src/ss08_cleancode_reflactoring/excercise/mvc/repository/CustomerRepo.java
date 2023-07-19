@@ -16,6 +16,7 @@ public class CustomerRepo implements ICustomerRepo {
         myCustomer.add(new Customer(3, "Superman", 30, "Silver"));
     }
 
+
     @Override
     public ArrayList<Customer> displayAll() {
         Collections.sort(myCustomer);
