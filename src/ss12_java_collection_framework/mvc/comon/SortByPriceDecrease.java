@@ -1,4 +1,4 @@
-package ss12_java_collection_framework.mvc.service;
+package ss12_java_collection_framework.mvc.comon;
 
 import ss12_java_collection_framework.mvc.model.Product;
 

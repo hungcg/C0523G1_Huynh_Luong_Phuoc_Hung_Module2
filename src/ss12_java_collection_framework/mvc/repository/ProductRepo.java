@@ -1,8 +1,8 @@
 package ss12_java_collection_framework.mvc.repository;
 
 import ss12_java_collection_framework.mvc.model.Product;
-import ss12_java_collection_framework.mvc.service.SortByPriceDecrease;
-import ss12_java_collection_framework.mvc.service.SortByPriceIncrease;
+import ss12_java_collection_framework.mvc.comon.SortByPriceDecrease;
+import ss12_java_collection_framework.mvc.comon.SortByPriceIncrease;
 
 import java.util.ArrayList;
 import java.util.Collections;

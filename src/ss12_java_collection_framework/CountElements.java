@@ -5,22 +5,21 @@ import java.util.Scanner;
 import java.util.TreeMap;
 
 public class CountElements {
-        public static  void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("input String");
-            String string = scanner.nextLine();
-            Character keys;
-            Map<Character,Integer> treeMap = new TreeMap<>();
-            for (int i = 0; i < string.length();i++){
-                keys = string.charAt(i);
-                if (treeMap.containsKey(keys)){
-                    int count = treeMap.get(keys);
-                    treeMap.put(keys,count + 1);
-                }else {
-                    treeMap.put(keys,1);
-                }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        String[] inputList = input.split(" ");
+        input = input.toLowerCase();
+        Map<String, Integer> newArray = new TreeMap<>();
+        for (int i = 0; i < inputList.length; i++) {
+            if (!newArray.containsKey(inputList[i])) {
+                newArray.put(inputList[i], 1);
+            } else {
+                int value = newArray.get(inputList[i]) + 1;
+                newArray.put(inputList[i], value);
             }
-            System.out.println(treeMap);
         }
+        System.out.println(newArray);
     }
+}
 
