@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss14_thuat_toan_sap_xep/exercise/IllustrationInsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14_thuat_toan_sap_xep/exercise/SettingInsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss15_exception_debug/excercise/IllegalTriangleException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss14_thuat_toan_sap_xep/exercise/SettingInsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss14_thuat_toan_sap_xep/exercise/SettingInsertionSort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IllustrationInsertionSort">
+  <component name="RunManager" selected="Application.IllegalTriangleException">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss13_thuat_toan_tim_kiem.excercise.BinarySearch" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -74,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IllustrationInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss14_thuat_toan_sap_xep.exercise.IllustrationInsertionSort" />
+    <configuration name="IllegalTriangleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss15_exception_debug.excercise.IllegalTriangleException" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss14_thuat_toan_sap_xep.exercise.*" />
+          <option name="PATTERN" value="ss15_exception_debug.excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss12_java_collection_framework.mvc.controller.ProductController" />
+    <configuration name="IllustrationInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14_thuat_toan_sap_xep.exercise.IllustrationInsertionSort" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss12_java_collection_framework.mvc.controller.*" />
+          <option name="PATTERN" value="ss14_thuat_toan_sap_xep.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IllegalTriangleException" />
         <item itemvalue="Application.IllustrationInsertionSort" />
         <item itemvalue="Application.TimChuoiLienTiepCoDoDaiLonNhat" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.TimChuoiTangDanCoDoDaiLonNhat" />
-        <item itemvalue="Application.ProductController" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +176,7 @@
       <workItem from="1689643260247" duration="7701000" />
       <workItem from="1689735791065" duration="18858000" />
       <workItem from="1689820347082" duration="14425000" />
-      <workItem from="1689905385314" duration="1549000" />
+      <workItem from="1689905385314" duration="7906000" />
     </task>
     <servers />
   </component>
