@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss15_exception_debug/excercise/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss15_exception_debug/excercise/TriangleCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss15_exception_debug/excercise/TriangleException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss16_io_text_file/excercise/FILE_CONTRY.CSV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss16_io_text_file/excercise/ReadFromCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16_io_text_file/excercise/ReadFromCountry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss16_io_text_file/excercise/ReaderWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16_io_text_file/excercise/ReaderWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15_exception_debug/excercise/IllegalTriangleException.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClubController">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ClubController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mvc_practice.fc.controller.ClubController" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -88,19 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IllegalTriangleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss15_exception_debug.excercise.IllegalTriangleException" />
-      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss15_exception_debug.excercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IllustrationInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss14_thuat_toan_sap_xep.exercise.IllustrationInsertionSort" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -114,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimChuoiLienTiepCoDoDaiLonNhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13_thuat_toan_tim_kiem.excercise.TimChuoiLienTiepCoDoDaiLonNhat" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss15_exception_debug.excercise.Test" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13_thuat_toan_tim_kiem.excercise.*" />
+          <option name="PATTERN" value="ss15_exception_debug.excercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss15_exception_debug.excercise.TriangleCheck" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss15_exception_debug.excercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ClubController" />
         <item itemvalue="Application.HeroController" />
-        <item itemvalue="Application.IllegalTriangleException" />
+        <item itemvalue="Application.TriangleCheck" />
         <item itemvalue="Application.IllustrationInsertionSort" />
-        <item itemvalue="Application.TimChuoiLienTiepCoDoDaiLonNhat" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +180,8 @@
       <workItem from="1689905385314" duration="11469000" />
       <workItem from="1690167330977" duration="15722000" />
       <workItem from="1690247512942" duration="1091000" />
+      <workItem from="1690248625675" duration="1089000" />
+      <workItem from="1690269171846" duration="946000" />
     </task>
     <servers />
   </component>
