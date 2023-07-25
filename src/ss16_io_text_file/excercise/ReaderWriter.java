@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class ReaderWriter {
 
-    public static final String fileRead = "D:\\Codegym\\Module 2\\src\\Advanced_Programming_with_Java_2_1\\ss16_IO_Text_File\\Bai_tap\\source.txt";
-    public static final String fileWirte = "D:\\Codegym\\Module 2\\src\\Advanced_Programming_with_Java_2_1\\ss16_IO_Text_File\\Bai_tap\\target .txt";
+    public static final String fileRead = "D:\\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\\src\\sss16_io_text_file\\excercise\\source.txt";
+    public static final String fileWirte = "D:\\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\\src\\sss16_io_text_file\\excercise\\target .txt";
 
     public static String readFile(){
         String result = "";

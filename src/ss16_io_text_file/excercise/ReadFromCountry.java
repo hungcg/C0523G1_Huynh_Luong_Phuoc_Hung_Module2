@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ReadFromCountry {
 
-    public static final String FIlE_COUNTRY_CVN = "D:\\Codegym\\Module 2\\src\\Advanced_Programming_with_Java_2_1\\ss16_IO_Text_File\\Bai_tap\\FILE_CONTRY.CSV";
+    public static final String FIlE_COUNTRY_CVN = "D:\\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\\src\\sss16_io_text_file\\excercise\\FILE_COUNTRY.CSV";
 
     public static List<Country> readCSV() {
         List<Country> countryList = new ArrayList<>();
@@ -30,7 +30,6 @@ public class ReadFromCountry {
             e.printStackTrace();
         }
         return countryList;
-
     }
 //    public static void writeCSV(Country country)  {
 //        try {

@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/fc/comon/SortByColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/fc/controller/ClubController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/fc/model/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/fc/repository/ClubRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/fc/repository/IClubRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/fc/service/ClubService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/fc/service/IClubService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/hero/comon/SortByIdDecrease.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/hero/comon/SortByIdIncrease.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/hero/controller/HeroController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/hero/model/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/hero/repository/HeroRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/hero/repository/IHeroRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/hero/service/HeroService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/hero/service/IHeroService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16_io_text_file/excercise/FILE_CONTRY.CSV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16_io_text_file/excercise/ReadFromCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16_io_text_file/excercise/ReadFromCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16_io_text_file/excercise/ReaderWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16_io_text_file/excercise/ReaderWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +178,7 @@
       <workItem from="1689820347082" duration="14425000" />
       <workItem from="1689905385314" duration="11469000" />
       <workItem from="1690167330977" duration="15722000" />
-      <workItem from="1690247512942" duration="619000" />
+      <workItem from="1690247512942" duration="1091000" />
     </task>
     <servers />
   </component>
