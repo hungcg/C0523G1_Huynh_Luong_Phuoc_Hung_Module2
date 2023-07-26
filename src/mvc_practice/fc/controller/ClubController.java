@@ -3,6 +3,7 @@ package mvc_practice.fc.controller;
 import mvc_practice.fc.repository.IClubRepo;
 import mvc_practice.fc.service.ClubService;
 import mvc_practice.fc.service.IClubService;
+import ss17_binaryfile_serialization.excercise.productbinaryfile.model.Product;
 
 import java.util.Scanner;
 
