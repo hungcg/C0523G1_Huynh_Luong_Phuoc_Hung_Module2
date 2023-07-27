@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss18_string_regex/excercise/classroom/ClassroomValidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss18_string_regex/excercise/classroom/ClassroomValidateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss18_string_regex/excercise/phonenumber/PhoneNumberValidate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss18_string_regex/excercise/phonenumber/PhoneNumberValidateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss17_binaryfile_serialization/excercise/copybinaryfile/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss17_binaryfile_serialization/excercise/copybinaryfile/student.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss17_binaryfile_serialization/excercise/copybinaryfile/text.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss18_string_regex/excercise/CrawlNew.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +51,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ss18_string_regex.excercise" />
       <recent name="ss08_cleancode_reflactoring.excercise.MVC.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -185,7 +180,7 @@
       <workItem from="1690248625675" duration="1089000" />
       <workItem from="1690269171846" duration="1962000" />
       <workItem from="1690339652831" duration="17168000" />
-      <workItem from="1690427223763" duration="4894000" />
+      <workItem from="1690427223763" duration="5379000" />
     </task>
     <servers />
   </component>
