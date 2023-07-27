@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mvc_practice/BeautifulArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/copybinaryfile/Copy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/copybinaryfile/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/copybinaryfile/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/copybinaryfile/dest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/copybinaryfile/source.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/copybinaryfile/student.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/productbinaryfile/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/productbinaryfile/data/product.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/productbinaryfile/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/productbinaryfile/repository/IProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/productbinaryfile/repository/ProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/productbinaryfile/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/productbinaryfile/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17_binaryfile_serialization/excercise/productbinaryfile/util/ReadAndWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss18_string_regex/excercise/classroom/ClassroomValidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss18_string_regex/excercise/classroom/ClassroomValidateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss18_string_regex/excercise/phonenumber/PhoneNumberValidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss18_string_regex/excercise/phonenumber/PhoneNumberValidateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/mvc_practice/fc/controller/ClubController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/mvc_practice/fc/controller/ClubController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc_practice/fc/controller/ClubController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mvc_practice/fc/controller/ClubController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss17_binaryfile_serialization/excercise/copybinaryfile/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss17_binaryfile_serialization/excercise/copybinaryfile/student.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss17_binaryfile_serialization/excercise/copybinaryfile/text.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +64,20 @@
       <recent name="D:\C0523G1_Huynh_Luong_Phuoc_Hung_Module2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Copy">
+  <component name="RunManager" selected="Application.PhoneNumberValidate">
+    <configuration name="ClassroomValidate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss18_string_regex.excercise.classroom.ClassroomValidate" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss18_string_regex.excercise.classroom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss17_binaryfile_serialization.excercise.copybinaryfile.Copy" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -102,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhoneNumberValidate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss18_string_regex.excercise.phonenumber.PhoneNumberValidate" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss18_string_regex.excercise.classroom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss17_binaryfile_serialization.excercise.productbinaryfile.controller.ProductController" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
@@ -115,39 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadAndWriteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss17_binaryfile_serialization.excercise.productbinaryfile.util.ReadAndWriteFile" />
-      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss17_binaryfile_serialization.excercise.productbinaryfile.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss15_exception_debug.excercise.Test" />
-      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss15_exception_debug.excercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneNumberValidate" />
+        <item itemvalue="Application.ClassroomValidate" />
         <item itemvalue="Application.Copy" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ProductController" />
-        <item itemvalue="Application.ReadAndWriteFile" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +185,7 @@
       <workItem from="1690248625675" duration="1089000" />
       <workItem from="1690269171846" duration="1962000" />
       <workItem from="1690339652831" duration="17168000" />
+      <workItem from="1690427223763" duration="4894000" />
     </task>
     <servers />
   </component>
