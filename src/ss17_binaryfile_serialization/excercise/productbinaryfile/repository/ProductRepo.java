@@ -33,12 +33,11 @@ public class ProductRepo implements IProductRepo {
     }
 
     @Override
-    public void search(String name) {
+    public List<Product> search(String name) {
         List<Product> productList = this.displayAll();
         for (int i = 0; i < productList.size(); i++) {
             if (productList.get(i).getName().contains(name)) {
                 System.out.println(productList.get(i));
-                break;
             }
         }
         List<String> stringList = new ArrayList<>();
@@ -47,6 +46,7 @@ public class ProductRepo implements IProductRepo {
 
         }
         ReadAndWriteFile.writeProduct(FILE_PATH, stringList, false);
+        return productList;
     }
 
 }

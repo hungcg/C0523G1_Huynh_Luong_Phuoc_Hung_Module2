@@ -9,7 +9,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class EployeeService implements IEmpolyeeService {
-  
+
 
     @Override
     public void displayAll() {

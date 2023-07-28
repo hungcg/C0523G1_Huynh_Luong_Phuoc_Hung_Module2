@@ -89,6 +89,13 @@ public class EmployeeRepo implements IEmployeeRepo {
 
     @Override
     public void displayAll() {
+        if (employees.size() < 1) {
+            System.out.println("DATA NOT EXIST, PLEASE INPUT NEW EMPLOYEE: ");
+        } else {
+            for (Employee employee : employees) {
+                System.out.println(employee);
+            }
+        }
     }
 
     @Override
