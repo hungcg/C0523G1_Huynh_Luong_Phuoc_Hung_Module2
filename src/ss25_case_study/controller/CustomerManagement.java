@@ -12,6 +12,7 @@ public class CustomerManagement {
         do {
 
             checkChoice = false;
+            System.out.println("-----CUSTOMER MANAGEMENT-----");
             System.out.println("1.Display list Customers");
             System.out.println("2.Add new Customers");
             System.out.println("3.Edit Customers");

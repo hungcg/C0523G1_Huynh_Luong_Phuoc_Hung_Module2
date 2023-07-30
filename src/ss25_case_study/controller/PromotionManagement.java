@@ -10,6 +10,7 @@ public class PromotionManagement {
     public static void promotionManagement() {
         do {
             checkChoice = false;
+            System.out.println("-----PROMOTION MANAGEMENT-----");
             System.out.println("1.Display list Customer use service");
             System.out.println("2.Display list Customer get voucher");
             System.out.println("3.Edit Employee");

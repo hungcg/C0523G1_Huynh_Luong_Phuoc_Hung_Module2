@@ -11,7 +11,7 @@ public class FuramaController {
     public static void displayMainMenu() {
         do {
             checkChoice = false;
-            System.out.println("Furama Resort Management Menu");
+            System.out.println("FURAMA RESORT MANAGEMENT SYSTEM");
             System.out.println("1.Employee Management");
             System.out.println("2.Customer Management");
             System.out.println("3.Facility Management");

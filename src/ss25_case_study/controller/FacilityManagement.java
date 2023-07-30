@@ -12,6 +12,7 @@ public class FacilityManagement {
         do {
 
             checkChoice = false;
+            System.out.println("-----FACILITY MANAGEMENT-----");
             System.out.println("1.Display list Facility");
             System.out.println("2.Add new Facility");
             System.out.println("3.Display list Facility maintenance");

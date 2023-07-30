@@ -39,14 +39,20 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                super.toString() +
-                ", quatification='" + quatification + '\'' +
-                ", position='" + position + '\'' +
-                ", salary=" + salary +
-                '}';
+    public String getInfoCSV() {
+        return super.getInfoCsv() + "," + this.quatification + "," + this.position + "," + this.salary;
     }
-}
+
+
+        @Override
+        public String toString () {
+            return "Employee{" +
+                    super.toString() +
+                    ", quatification='" + quatification + '\'' +
+                    ", position='" + position + '\'' +
+                    ", salary=" + salary +
+                    '}';
+        }
+    }
+
 

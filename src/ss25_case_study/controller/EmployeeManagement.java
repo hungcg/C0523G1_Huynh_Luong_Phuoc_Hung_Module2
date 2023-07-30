@@ -1,8 +1,12 @@
 package ss25_case_study.controller;
 
+import ss25_case_study.service.employee_service.EployeeService;
+import ss25_case_study.service.employee_service.IEmpolyeeService;
+
 import java.util.Scanner;
 
 public class EmployeeManagement {
+   static IEmpolyeeService service =new EployeeService();
     static Scanner scanner = new Scanner(System.in);
     private static int choice = 0;
     private static boolean checkChoice;
@@ -11,6 +15,7 @@ public class EmployeeManagement {
     void employeeManagement() {
         do {
             checkChoice = false;
+            System.out.println("-----EMPLOYEE MANAGEMENT-----");
             System.out.println("1.Display list Employee");
             System.out.println("2.Add new Employee");
             System.out.println("3.Edit Employee");
@@ -26,17 +31,23 @@ public class EmployeeManagement {
             }
             switch (choice) {
                 case 1:
+                    service.displayAll();
                     break;
                 case 2:
+                    service.add();
                     break;
                 case 3:
+                    service.edit();
                     break;
                 case 4:
+                    service.delete();
                     break;
                 case 5:
+                    service.searchByName();
                     break;
                 case 6:
                     FuramaController.displayMainMenu();
+                    break;
             }
         } while (checkChoice);
     }

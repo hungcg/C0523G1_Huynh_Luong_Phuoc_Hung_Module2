@@ -10,6 +10,7 @@ public class BookingManagement {
     public static void bookingManagement() {
         do {
             checkChoice = false;
+            System.out.println("-----BOOKING MANAGEMENT-----");
             System.out.println("1.Add new Booking");
             System.out.println("2.Displaylist Booking");
             System.out.println("3.Create new contracts");

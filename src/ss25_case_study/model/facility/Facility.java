@@ -1,18 +1,18 @@
 package ss25_case_study.model.facility;
 
 public abstract class Facility  {
-    protected int serviceID;
+    protected String serviceID;
     protected String serviceName;
-    protected double area;
-    protected int price;
-    protected int capacityOfRoom;
+    protected String area;
+    protected String price;
+    protected String capacityOfRoom;
     protected String rentalType;
 
     public Facility() {
 
     }
 
-    public Facility(int serviceID, String serviceName, double area, int price, int capacityOfRoom, String rentalType) {
+    public Facility(String serviceID, String serviceName, String area, String price, String capacityOfRoom, String rentalType) {
         this.serviceID = serviceID;
         this.serviceName = serviceName;
         this.area = area;
@@ -21,11 +21,11 @@ public abstract class Facility  {
         this.rentalType = rentalType;
     }
 
-    public int getServiceID() {
+    public String getServiceID() {
         return serviceID;
     }
 
-    public void setServiceID(int serviceID) {
+    public void setServiceID(String serviceID) {
         this.serviceID = serviceID;
     }
 
@@ -37,27 +37,27 @@ public abstract class Facility  {
         this.serviceName = serviceName;
     }
 
-    public double getArea() {
+    public String getArea() {
         return area;
     }
 
-    public void setArea(double area) {
+    public void setArea(String area) {
         this.area = area;
     }
 
-    public int getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 
-    public int getCapacityOfRoom() {
+    public String getCapacityOfRoom() {
         return capacityOfRoom;
     }
 
-    public void setCapacityOfRoom(int capacityOfRoom) {
+    public void setCapacityOfRoom(String capacityOfRoom) {
         this.capacityOfRoom = capacityOfRoom;
     }
 

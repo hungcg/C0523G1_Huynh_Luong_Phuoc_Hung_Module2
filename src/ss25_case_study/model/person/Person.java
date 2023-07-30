@@ -78,6 +78,10 @@ public class Person {
     public void setEmail(String email) {
         this.email = email;
     }
+    public String getInfoCsv() {
+        return this.id + "," + this.name + "," + this.dayOfBirth + "," + this.gender + "," + this.identityCardNumber + "," + this.numberPhone + "," + this.email;
+    }
+
 
     @Override
     public String toString() {
