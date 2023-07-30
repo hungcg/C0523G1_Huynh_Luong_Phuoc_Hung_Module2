@@ -1,4 +1,4 @@
-package ss19_string_regex.excercise.classroom;
+package ss19_string_regex.excercise.classRoom;
 
 public class ClassroomValidateTest {
 

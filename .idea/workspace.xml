@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss25_case_study/utils/Regex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/BookingManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/BookingManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/CustomerManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/CustomerManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/EmployeeManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/EmployeeManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/FacilityManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/FacilityManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/FuramaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/PromotionManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/PromotionManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/data/employeeReadandWrite.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/data/employeeReadandWrite.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/model/facility/Facility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/model/facility/Facility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/model/facility/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/model/facility/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/model/facility/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/model/facility/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/model/facility/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/model/facility/Villa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/model/person/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/model/person/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/model/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/model/person/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/employee_repo/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/employee_repo/EmployeeRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/employee_repo/IEmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/employee_repo/IEmployeeRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/employee_service/EployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/employee_service/EployeeService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +64,11 @@
   </component>
   <component name="RunManager" selected="Application.FuramaView">
     <configuration name="ClassroomValidate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss19_string_regex.excercise.classroom.ClassroomValidate" />
+      <option name="MAIN_CLASS_NAME" value="ss19_string_regex.excercise.classRoom.ClassroomValidate" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss19_string_regex.excercise.classroom.*" />
+          <option name="PATTERN" value="ss19_string_regex.excercise.classRoom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="PhoneNumberValidate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss19_string_regex.excercise.phonenumber.PhoneNumberValidate" />
+      <option name="MAIN_CLASS_NAME" value="ss19_string_regex.excercise.phoneNumber.PhoneNumberValidate" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss19_string_regex.excercise.classroom.*" />
+          <option name="PATTERN" value="ss19_string_regex.excercise.classRoom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,7 +185,7 @@
       <workItem from="1690339652831" duration="17168000" />
       <workItem from="1690427223763" duration="19432000" />
       <workItem from="1690452874020" duration="188000" />
-      <workItem from="1690512104141" duration="13711000" />
+      <workItem from="1690512104141" duration="15048000" />
     </task>
     <servers />
   </component>

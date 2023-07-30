@@ -1,4 +1,4 @@
-package ss19_string_regex.excercise.phonenumber;
+package ss19_string_regex.excercise.phoneNumber;
 
 public class PhoneNumberValidateTest {
     public static final String[] validClassName = new String[]{"(84)-(978489648)"};

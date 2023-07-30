@@ -1,4 +1,4 @@
-package ss19_string_regex.excercise.classroom;
+package ss19_string_regex.excercise.classRoom;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

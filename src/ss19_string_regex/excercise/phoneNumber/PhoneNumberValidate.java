@@ -1,4 +1,4 @@
-package ss19_string_regex.excercise.phonenumber;
+package ss19_string_regex.excercise.phoneNumber;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
