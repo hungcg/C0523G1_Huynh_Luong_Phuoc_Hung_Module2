@@ -30,7 +30,7 @@ public class PromotionManagement {
                 case 3:
                     FuramaController.displayMainMenu();
             }
-        } while (checkChoice);
+        } while (true);
     }
 }
 

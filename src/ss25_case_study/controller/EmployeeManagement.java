@@ -49,7 +49,7 @@ public class EmployeeManagement {
                     FuramaController.displayMainMenu();
                     break;
             }
-        } while (checkChoice);
+        } while (true);
     }
 }
 

@@ -38,7 +38,7 @@ public class BookingManagement {
                 case 6:
                     FuramaController.displayMainMenu();
             }
-        } while (checkChoice);
+        } while (true);
     }
 }
 

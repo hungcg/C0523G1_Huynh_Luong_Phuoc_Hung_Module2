@@ -47,7 +47,7 @@ public class FuramaController {
             }
 
 
-        } while (checkChoice);
+        } while (true);
     }
 }
 

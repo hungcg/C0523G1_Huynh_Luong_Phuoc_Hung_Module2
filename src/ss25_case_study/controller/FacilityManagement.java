@@ -37,7 +37,7 @@ public class FacilityManagement {
                 case 5:
                     FuramaController.displayMainMenu();
             }
-        } while (checkChoice);
+        } while (true);
     }
 }
 

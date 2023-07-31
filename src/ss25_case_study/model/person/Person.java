@@ -1,6 +1,6 @@
 package ss25_case_study.model.person;
 
-public class Person {
+public abstract class Person {
     private String id;
     private String name;
     private String dayOfBirth;

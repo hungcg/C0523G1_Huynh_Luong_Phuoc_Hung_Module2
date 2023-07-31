@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Regex {
     static Scanner scanner = new Scanner(System.in);
     private static final String REGEX_ID = "^NV-[0-9]{4}$";
+    private static final String REGEX_CID = "^KH-[0-9]{4}$";
     private static final String REGEX_NAME = "^([A-Z]{1}[a-z]+\\s)+$";
     private static final String REGEX_IDENTIFY = "^[0-9]{9}$|^[0-9]{12}$";
     private static final String REGEX_PHONE_NUMBER = "^0[0-9]{9}$";
@@ -17,6 +18,19 @@ public class Regex {
             check = id.matches(REGEX_ID);
             if (!check) {
                 System.out.println("Id format iz : NV-YYYY (YYYY = 0-9)");
+                System.out.println("Input Id again!");
+            }
+        } while (!check);
+        return id;
+    }
+    public static String customerIdCheck() {
+        boolean check;
+        String id;
+        do {
+            id = scanner.nextLine();
+            check = id.matches(REGEX_CID);
+            if (!check) {
+                System.out.println("Id format iz : KH-YYYY (YYYY = 0-9)");
                 System.out.println("Input Id again!");
             }
         } while (!check);

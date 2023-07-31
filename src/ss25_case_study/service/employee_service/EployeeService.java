@@ -78,7 +78,6 @@ public class EployeeService implements IEmpolyeeService {
         String[] arr = input();
         Employee employee = new Employee(chooseId, arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6], arr[7], Double.parseDouble(arr[8]));
         repository.edit(chooseId, employee);
-
     }
 
     @Override
@@ -95,7 +94,7 @@ public class EployeeService implements IEmpolyeeService {
     @Override
     public void searchByName() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter employee's name:");
+        System.out.println("Input employee's name:");
         String name = scanner.nextLine();
         List<Employee> employees = repository.searchByName(name);
         for (Employee employee : employees) {
