@@ -56,9 +56,6 @@ public class FacilityRepo implements IFacilityRepo {
     }
 
 
-    public void addVilla(Villa villa, Integer integer) {
-        facilityList.put(villa, integer);
-    }
 
     @Override
     public void addHouse(House house, Integer integer) {
@@ -69,6 +66,11 @@ public class FacilityRepo implements IFacilityRepo {
     @Override
     public void addRoom(Room room, Integer integer) {
         facilityList.put(room, integer);
+    }
+
+    @Override
+    public void addVilaa(Villa villa, Integer integer) {
+        facilityList.put(villa, integer);
     }
 
 

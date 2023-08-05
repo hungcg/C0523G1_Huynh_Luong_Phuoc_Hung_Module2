@@ -1,8 +1,12 @@
 package ss25_case_study.controller;
 
+import ss25_case_study.service.facility.FacilityService;
+import ss25_case_study.service.facility.IFacilityService;
+
 import java.util.Scanner;
 
 public class FacilityManagement {
+    static IFacilityService service =new FacilityService();
     static Scanner scanner = new Scanner(System.in);
     private static int choice = 0;
     private static boolean checkChoice;
@@ -31,12 +35,16 @@ public class FacilityManagement {
             }
             switch (choice) {
                 case 1:
+                    service.displayAll();
                     break;
                 case 2:
+                    service.add();
                     break;
                 case 3:
+                    service.displayListMaintainance();
                     break;
                 case 4:
+                    service.delete();
                     break;
                 case 5:
                     FuramaController.displayMainMenu();

@@ -1,18 +1,13 @@
 package ss25_case_study.service.facility;
 
 import ss25_case_study.controller.FacilityManagement;
-import ss25_case_study.controller.FuramaController;
 import ss25_case_study.model.facility.Facility;
 import ss25_case_study.model.facility.House;
 import ss25_case_study.model.facility.Room;
 import ss25_case_study.model.facility.Villa;
 import ss25_case_study.repository.facility.FacilityRepo;
 import ss25_case_study.repository.facility.IFacilityRepo;
-import ss25_case_study.utils.Regex;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 import java.util.Scanner;
 
 public class FacilityService implements IFacilityService {
@@ -64,9 +59,93 @@ public class FacilityService implements IFacilityService {
         checkChoice = true;
     }
 
-
     @Override
     public void add() {
+    }
+
+    public void addVilla() {
+        boolean flag = true;
+        String inputId = "Enter the villa's ID with the format (SVVL-YYYY) : ";
+        String idVilla = null;
+
+
+        String inputName = "Enter the name Villa for rent : ";
+        String nameVilla = null;
+
+
+        String inputArea = "Enter the villa area (> 30m^2)";
+        String areaVilla = null;
+
+
+        String inputPrice = "Enter the cost of renting a villa : ";
+        String priceVilla = null;
+
+
+        String inputNumPerson = "Enter the number of villas tenants";
+        String numPersonVilla = null;
+
+
+        String inputDateHire = "Enter the rental type";
+        String dateHireVilla = null;
+
+
+        String inputRoomStandard = "Enter room standard : ";
+        String roomStandardVilla = null;
+
+
+        String inputareaPool = "Enter the pool area : ";
+        int areaPoolVilla = 0;
+
+
+        String inputFloor = "Enter the number of villas : ";
+        int floorVilla = 0;
+
+
+        Villa villa = new Villa(idVilla, nameVilla, areaVilla, priceVilla, numPersonVilla, dateHireVilla, roomStandardVilla, areaPoolVilla, floorVilla);
+        repository.addVilaa(villa, 0);
+        System.out.println("Add successful villa service !\n");
+    }
+
+    public void addHouse() {
+        boolean flag = true;
+        String inputId = "Enter the house's ID with the format (SVHO-YYYY) : ";
+        String idHouse = null;
+
+
+        String inputName = "Enter the name house for rent : ";
+        String nameHouse = null;
+
+
+        String inputArea = "Enter the house area (> 30m^2)";
+        String areaHouse = null;
+
+
+        String inputPrice = "Enter the cost of renting a house : ";
+        String priceHouse = null;
+
+
+        String inputNumPerson = "Enter the number of houses tenants";
+        String numPersonHouse = null;
+
+
+        String inputDateHire = "Enter the rental type";
+        String dateHireHouse = null;
+
+
+        String inputRoomStandard = "Enter room standard : ";
+        String roomStandardHouse = null;
+
+
+        String inputFloor = "Enter the number of villas : ";
+        int floorHouse = 0;
+
+        House house = new House(idHouse, nameHouse, areaHouse, priceHouse, numPersonHouse, dateHireHouse, roomStandardHouse, floorHouse);
+        repository.addHouse(house, 0);
+        System.out.println("Add successful house service !\n");
+    }
+
+    @Override
+    public void addRoom() {
         boolean flag = true;
         String inputId = "Enter the Room's ID with the format (SVRO-YYYY) : ";
         String idRoom = null;
