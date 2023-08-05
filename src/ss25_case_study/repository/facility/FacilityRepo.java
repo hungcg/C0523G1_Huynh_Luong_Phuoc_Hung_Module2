@@ -35,34 +35,60 @@ public class FacilityRepo implements IFacilityRepo {
         return facilityVilla;
     }
 
-    public Map<Facility, Integer> houseDisplay(){
-        Map<Facility,Integer> facilityHouse= new LinkedHashMap<>();
-        for (Map.Entry<Facility,Integer> facility : facilityList.entrySet()) {
-            if(facility.getKey()instanceof House){
-                facilityHouse.put(facility.getKey(),facility.getValue());
+    public Map<Facility, Integer> houseDisplay() {
+        Map<Facility, Integer> facilityHouse = new LinkedHashMap<>();
+        for (Map.Entry<Facility, Integer> facility : facilityList.entrySet()) {
+            if (facility.getKey() instanceof House) {
+                facilityHouse.put(facility.getKey(), facility.getValue());
             }
         }
-        return  facilityHouse;
+        return facilityHouse;
     }
 
-    public  Map<Facility, Integer> roomDisplay() {
-        Map<Facility,Integer> facilityRoom = new LinkedHashMap<>();
-        for (Map.Entry<Facility,Integer> facility : facilityList.entrySet()) {
-            if(facility.getKey()instanceof Room){
-                facilityRoom.put(facility.getKey(),facility.getValue());
+    public Map<Facility, Integer> roomDisplay() {
+        Map<Facility, Integer> facilityRoom = new LinkedHashMap<>();
+        for (Map.Entry<Facility, Integer> facility : facilityList.entrySet()) {
+            if (facility.getKey() instanceof Room) {
+                facilityRoom.put(facility.getKey(), facility.getValue());
             }
         }
         return facilityRoom;
     }
 
+
+    public void addVilla(Villa villa, Integer integer) {
+        facilityList.put(villa, integer);
+    }
+
     @Override
-    public void add(Facility facility) {
+    public void addHouse(House house, Integer integer) {
+        facilityList.put(house, integer);
 
     }
 
     @Override
-    public void delete() {
+    public void addRoom(Room room, Integer integer) {
+        facilityList.put(room, integer);
+    }
 
+
+    public void deleteVilla(Villa id) {
+        facilityList.remove(id);
+    }
+
+    @Override
+    public void deleteHouse(House key) {
+        facilityList.remove(key);
+    }
+
+    @Override
+    public void deleteRoom(Room key) {
+        facilityList.remove(key);
+    }
+
+    @Override
+    public void deleteFacility(Facility key) {
+        facilityList.remove(key);
     }
 
     @Override
@@ -80,6 +106,22 @@ public class FacilityRepo implements IFacilityRepo {
                 System.out.println("Has been used for 5 times, please maintain!!!");
             }
         }
+    }
+
+    @Override
+    public Facility searchKey() {
+        return null;
+    }
+
+
+    @Override
+    public Facility searchKey(String id) {
+        for (Map.Entry<Facility, Integer> entry : facilityList.entrySet()) {
+            if (entry.getKey().getServiceID().equals(id)) {
+                return entry.getKey();
+            }
+        }
+        return null;
     }
 }
 

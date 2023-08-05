@@ -4,25 +4,37 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Excercise2 {
+    private static ArrayList<Character> myTransfer(String s) {
+        ArrayList<Character> result = new ArrayList<>();
+        for (int i = 0; i < s.length(); i++) {
+            result.add(s.charAt(i));
+        }
+        return result;
+    }
 
-    public static List<Integer> string(String string, String string2) {
-        List<Integer> countList= new ArrayList<>();
-        List<String> character =new ArrayList<>();
-        string.split(",");
-        string2.split(",");
-        int count=0;
-        for (int i = 0; i < string.length(); i++) {
-            for (int j = 0; j < string2.length(); j++) {
-                if (string.charAt(i) == string2.charAt(j)
-                        || string.toLowerCase().charAt(i) == string2.toLowerCase().charAt(j)
-                        || string.toUpperCase().charAt(i) == string2.toUpperCase().charAt(j)) {
-                    character.add(string.valueOf(i));
-                    string2.replace(string.charAt(j),string.charAt(j+1));
-                    count++;
+    public static int string(String string, String string2) {
+        List<Character> newString = myTransfer(string);
+        List<Character> newString2 = myTransfer(string2);
+        List<Character> newString3 = new ArrayList<>();
+
+
+        for (int i = 0; i < newString.size(); i++) {
+            for (int j = 0; j < newString2.size(); j++) {
+                if (newString.get(i) == newString2.get(j)) {
+                    newString3.add(newString.get(i));
+                    newString2.remove(newString2.get(j));
+                    break;
                 }
             }
-            countList.add(count);
         }
-        return countList;
+//        for (int i = 0; i < newString3.size() - 1; i++) {
+//            if (newString3.get(i) == newString3.get(i + 1)) {
+//                newString3.remove(newString3.get(i));
+//            }
+//        }
+        int result = newString3.size();
+        return result;
     }
 }
+
+

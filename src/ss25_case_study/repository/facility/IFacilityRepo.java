@@ -1,7 +1,10 @@
 package ss25_case_study.repository.facility;
 
 import ss25_case_study.model.facility.Facility;
+import ss25_case_study.model.facility.House;
+import ss25_case_study.model.facility.Room;
 
+import java.awt.*;
 import java.util.Map;
 
 public interface IFacilityRepo {
@@ -11,9 +14,18 @@ public interface IFacilityRepo {
 
     Map<Facility, Integer> roomDisplay();
 
-    void add(Facility facility);
+    void addHouse(House house, Integer integer);
 
-    void delete();
+    void addRoom(Room room, Integer integer);
+
+    void deleteHouse(House key);
+
+    void deleteRoom(Room key);
+
+    void deleteFacility(Facility key);
 
     void displayListMaintainance();
+    Facility searchKey();
+
+    Facility searchKey(String id);
 }

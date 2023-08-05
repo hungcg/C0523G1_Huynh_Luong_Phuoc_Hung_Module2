@@ -73,13 +73,13 @@ ReadAndWriteFile.writeFromFile(CUSTOMER_PROFILE,stringList,false);
     @Override
     public List<Customer> searchByName(String name) {
         List<Customer> customerList = displayAll();
-        List<Customer> employee = new ArrayList<>();
+        List<Customer> customers = new ArrayList<>();
         for (int i = 0; i < customerList.size(); i++) {
-            if (customerList.get(i).getName().contains(name)) {
-                employee.add(customerList.get(i));
+            if (customerList.get(i).getName().toLowerCase().contains(name.toLowerCase())) {
+                customers.add(customerList.get(i));
             }
         }
-        return employee;
+        return customers;
 
     }
 }

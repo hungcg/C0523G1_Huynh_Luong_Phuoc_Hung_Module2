@@ -5,56 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15e2c173-6c5d-48e9-8922-7eda13bc8643" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss25_case_study/data/houseReadAndWrite.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss25_case_study/data/roomReadAndWrite.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss25_case_study/data/villaReadAndWrite.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/facility/FacilityRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/facility/IFacilityRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss25_case_study/service/facility/FacilityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise1/Excercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise2/Excercise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise3/Excercise3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise4/Excercise4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise4/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise5/Excercise5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise5/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise6/Excercise6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise6/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise7/Excercise7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise7/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/BookingManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/BookingManagement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/CustomerManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/CustomerManagement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/EmployeeManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/EmployeeManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/FacilityManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/FacilityManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/FuramaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/FuramaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/PromotionManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/controller/PromotionManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/facility_repo/FacilityRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/facility_repo/FacilityRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/facility_repo/IFacilityRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/facility_repo/IFacilityRepo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/customer_service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/customer_service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/employee_service/EployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/employee_service/EployeeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/facility_service/FacilityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/facility_service/FacilityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/booking_repo/BookingRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/booking_repo/IBooingRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/customer_repo/CustomerRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/customer_repo/ICustomerRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/employee_repo/EmployeeRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/employee_repo/IEmployeeRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/facility_repo/FacilityRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/facility_repo/IFacilityRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/promotion_repo/IPromotionRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/repository/promotion_repo/PromotionRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/booking_service/BookingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/booking_service/IBookingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/customer_service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/customer_service/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/employee_service/EployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/employee_service/IEmpolyeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/facility_service/FacilityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/facility_service/IFacilityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/promotion_service/IPromotionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/service/promotion_service/PromotionService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/utils/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss25_case_study/utils/Regex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/BookingManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/BookingManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/CustomerManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/CustomerManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/EmployeeManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/EmployeeManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/FacilityManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/FacilityManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/FuramaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/controller/PromotionManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/controller/PromotionManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/booking_repo/BookingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/booking/BookingRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/booking_repo/IBooingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/booking/IBooingRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/customer_repo/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/customer/CustomerRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/customer_repo/ICustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/customer/ICustomerRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/employee_repo/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/employee/EmployeeRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/employee_repo/IEmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/employee/IEmployeeRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/facility_repo/FacilityRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/facility_repo/IFacilityRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/promotion_repo/IPromotionRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/promotion/IPromotionRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/promotion_repo/PromotionRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/promotion/PromotionRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/booking_service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/booking/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/booking_service/IBookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/booking/IBookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/customer_service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/customer_service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/customer/ICustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/employee_service/EployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/employee/EployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/employee_service/IEmpolyeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/employee/IEmpolyeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/facility_service/FacilityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/facility_service/IFacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/facility/IFacilityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/promotion_service/IPromotionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/promotion/IPromotionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/promotion_service/PromotionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/promotion/PromotionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss26_thuat_toan/excercise2/Excercise2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss26_thuat_toan/excercise2/Excercise2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss26_thuat_toan/excercise2/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C0523G1_Huynh_Luong_Phuoc_Hung_Module2/ss26_thuat_toan/excercise2/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/customer/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/customer/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/employee/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/employee/EmployeeRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/facility/FacilityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/facility/FacilityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/repository/facility/IFacilityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/repository/facility/IFacilityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/facility/FacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/facility/FacilityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/service/facility/IFacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/service/facility/IFacilityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss25_case_study/utils/ReadAndWriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/utils/ReadAndWriteFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss25_case_study/utils/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss25_case_study/utils/Regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise2/Excercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise2/Excercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss26_thuat_toan/excercise2/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +81,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/C0523G1_Huynh_Luong_Phuoc_Hung_Module2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -94,7 +91,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -111,52 +108,13 @@
       <recent name="ss25_case_study.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ss26_thuat_toan.excercise2.Test">
-    <configuration name="CrawlNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss19_string_regex.excercise.CrawlNew" />
-      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss19_string_regex.excercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemSoLanXuatHienCuaCacPhanTuTrongMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss03_array_java.excercise.DemSoLanXuatHienCuaCacPhanTuTrongMang" />
-      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss03_array_java.excercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FuramaView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss25_case_study.view.FuramaView" />
-      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss25_case_study.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ss26_thuat_toan.excercise7.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss26_thuat_toan.excercise1.Test" />
+      <option name="MAIN_CLASS_NAME" value="ss26_thuat_toan.excercise6.Test" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss26_thuat_toan.excercise1.*" />
+          <option name="PATTERN" value="ss26_thuat_toan.excercise6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +122,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss26_thuat_toan.excercise2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss26_thuat_toan.excercise2.Test" />
+    <configuration name="ss26_thuat_toan.excercise3.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss26_thuat_toan.excercise3.Test" />
       <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss26_thuat_toan.excercise2.*" />
+          <option name="PATTERN" value="ss26_thuat_toan.excercise3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ss26_thuat_toan.excercise4.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss26_thuat_toan.excercise4.Test" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss26_thuat_toan.excercise4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ss26_thuat_toan.excercise5.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss26_thuat_toan.excercise5.Test" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss26_thuat_toan.excercise5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ss26_thuat_toan.excercise7.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss26_thuat_toan.excercise7.Test" />
+      <module name="C0523G1_Huynh_Luong_Phuoc_Hung_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss26_thuat_toan.excercise7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ss26_thuat_toan.excercise2.Test" />
+        <item itemvalue="Application.ss26_thuat_toan.excercise7.Test" />
+        <item itemvalue="Application.ss26_thuat_toan.excercise5.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.DemSoLanXuatHienCuaCacPhanTuTrongMang" />
-        <item itemvalue="Application.FuramaView" />
-        <item itemvalue="Application.CrawlNew" />
+        <item itemvalue="Application.ss26_thuat_toan.excercise4.Test" />
+        <item itemvalue="Application.ss26_thuat_toan.excercise3.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +237,12 @@
       <workItem from="1690771248208" duration="5195000" />
       <workItem from="1690777001619" duration="8259000" />
       <workItem from="1690858001612" duration="11639000" />
-      <workItem from="1690938898647" duration="17606000" />
+      <workItem from="1690938898647" duration="19335000" />
+      <workItem from="1691025959848" duration="19527000" />
+      <workItem from="1691111834877" duration="2788000" />
+      <workItem from="1691114660638" duration="307000" />
+      <workItem from="1691114999849" duration="13894000" />
+      <workItem from="1691196087499" duration="6718000" />
     </task>
     <servers />
   </component>
@@ -321,6 +323,31 @@
           <line>29</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss26_thuat_toan/excercise2/Excercise2.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss26_thuat_toan/excercise5/Excercise5.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss26_thuat_toan/excercise5/Excercise5.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss26_thuat_toan/excercise6/Excercise6.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss26_thuat_toan/excercise7/Excercise7.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ss10_dsa/excercise/MyList.java</url>
           <line>94</line>
@@ -350,17 +377,41 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ss26_thuat_toan/excercise2/Excercise2.java</url>
-          <line>7</line>
+          <line>14</line>
           <properties class="ss26_thuat_toan.excercise2.Excercise2" method="string">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss26_thuat_toan/excercise3/Excercise3.java</url>
+          <line>15</line>
+          <properties class="ss26_thuat_toan.excercise3.Excercise3" method="beautifulArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/ss25_case_study/utils/Regex.java</url>
+          <line>8</line>
+          <properties field="REGEX_NAME" class="ss25_case_study.utils.Regex" />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/ss25_case_study/utils/Regex.java</url>
+          <line>7</line>
+          <properties field="REGEX_CID" class="ss25_case_study.utils.Regex" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/C0523G1_Huynh_Luong_Phuoc_Hung_Module2$ss26_thuat_toan_excercise4_Test.ic" NAME="ss26_thuat_toan.excercise4.Test Coverage Results" MODIFIED="1691114503461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ss26_thuat_toan.excercise4.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/C0523G1_Huynh_Luong_Phuoc_Hung_Module2$Main.ic" NAME="Main Coverage Results" MODIFIED="1688391362381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/C0523G1_Huynh_Luong_Phuoc_Hung_Module2$ProductController.ic" NAME="ProductController Coverage Results" MODIFIED="1689749794462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ss12_java_collection_framework.mvc.controller.*</FILTER>

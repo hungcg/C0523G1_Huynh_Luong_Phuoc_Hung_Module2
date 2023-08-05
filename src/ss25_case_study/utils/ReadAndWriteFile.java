@@ -6,7 +6,6 @@ import java.util.List;
 
 public class ReadAndWriteFile {
 
-
     //    public static void writeProduct(ArrayList<Product> product) throws IOException {
 //        FileOutputStream fos = new FileOutputStream(FILE_PATH);
 //        ObjectOutputStream oos = new ObjectOutputStream(fos);

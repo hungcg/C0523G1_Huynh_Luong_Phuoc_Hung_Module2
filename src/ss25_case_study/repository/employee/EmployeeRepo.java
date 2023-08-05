@@ -75,12 +75,12 @@ public class EmployeeRepo implements IEmployeeRepo {
     @Override
     public List<Employee> searchByName(String name) {
         List<Employee> employeeList = displayAll();
-        List<Employee> employee = new ArrayList<>();
+        List<Employee> employees = new ArrayList<>();
         for (int i = 0; i < employeeList.size(); i++) {
-            if (employeeList.get(i).getName().contains(name)) {
-                employee.add(employeeList.get(i));
+            if (employeeList.get(i).getName().toLowerCase().contains(name.toLowerCase())) {
+                employees.add(employeeList.get(i));
             }
         }
-        return employee;
+        return employees;
     }
 }

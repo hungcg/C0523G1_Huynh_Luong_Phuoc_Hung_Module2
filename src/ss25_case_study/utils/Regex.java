@@ -6,7 +6,7 @@ public class Regex {
     static Scanner scanner = new Scanner(System.in);
     private static final String REGEX_EID = "^NV-[0-9]{4}$";
     private static final String REGEX_CID = "^KH-[0-9]{4}$";
-    private static final String REGEX_NAME = "^([A-Z]{1}[a-z]+\\s)+$";
+    private static final String REGEX_NAME = "^([A-Z][a-z]*)(\\s[A-Z][a-z]*)*$";
     private static final String REGEX_IDENTIFY = "^[0-9]{9}$|^[0-9]{12}$";
     private static final String REGEX_PHONE_NUMBER = "^0[0-9]{9}$";
 
@@ -43,6 +43,16 @@ public class Regex {
     public static boolean indentifyCheck(String indentify) {
         boolean check;
         check = indentify.matches(REGEX_IDENTIFY);
+        if (!check) {
+            System.out.println("Indentify number must be 9-12 number");
+            System.out.println("Input Identify number again!");
+        }
+        return !check;
+    }
+
+    public static boolean nameCheck(String indentify) {
+        boolean check;
+        check = indentify.matches(REGEX_NAME);
         if (!check) {
             System.out.println("Indentify number must be 9-12 number");
             System.out.println("Input Identify number again!");
