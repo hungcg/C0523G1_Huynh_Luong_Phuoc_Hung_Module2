@@ -99,7 +99,7 @@ public class EployeeService implements IEmpolyeeService {
             System.out.println("Input ID you wanna delete:");
             id = scanner.nextLine();
         } while (Regex.employeeIdCheck(id));
-        if (repository.checkId(id) == -8) {
+        if (repository.checkId(id) == -1) {
             System.out.println(" this id never exist,please input another id");
             return;
         }

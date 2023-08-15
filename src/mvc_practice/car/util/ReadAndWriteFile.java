@@ -1,14 +1,10 @@
-package ss17_binaryfile_serialization.excercise.productbinaryfile.util;
-
-import ss17_binaryfile_serialization.excercise.productbinaryfile.model.Product;
-import ss17_binaryfile_serialization.excercise.productbinaryfile.repository.ProductRepo;
-
+package mvc_practice.car.util;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class ReadAndWriteFile {
-    public static void writeProduct(String filePath, List<String> stringList, boolean append) {
+    public static void writeFromFile(String filePath, List<String> stringList, boolean append) {
         File file = new File(filePath);
         FileWriter fileWriter = null;
         BufferedWriter bufferedWriter = null;
@@ -31,7 +27,7 @@ public class ReadAndWriteFile {
         }
     }
 
-    public static List<String> readProduct(String filePath) {
+    public static List<String> readFromFile(String filePath) {
         File file = new File(filePath);
         FileReader fileReader = null;
         BufferedReader bufferedReader = null;

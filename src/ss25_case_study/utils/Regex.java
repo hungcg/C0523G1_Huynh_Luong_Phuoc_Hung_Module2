@@ -3,7 +3,7 @@ package ss25_case_study.utils;
 import java.util.Scanner;
 
 public class Regex {
-    static Scanner scanner = new Scanner(System.in);
+
     private static final String REGEX_EID = "^NV-[0-9]{4}$";
     private static final String REGEX_CID = "^KH-[0-9]{4}$";
     private static final String REGEX_NAME = "^([A-Z][a-z]*)(\\s[A-Z][a-z]*)*$";

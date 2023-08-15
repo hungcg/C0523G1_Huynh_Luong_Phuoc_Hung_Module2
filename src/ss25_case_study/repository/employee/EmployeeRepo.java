@@ -34,7 +34,6 @@ public class EmployeeRepo implements IEmployeeRepo {
             employeeList.add(employee);
         }
         return employeeList;
-
     }
 
     @Override
@@ -42,7 +41,6 @@ public class EmployeeRepo implements IEmployeeRepo {
         List<String> stringList = new ArrayList<>();
         stringList.add(employee.getInfoCSV());
         ReadAndWriteFile.writeFromFile(EMPLOYEE_PROFILE, stringList, true);
-
     }
 
 
@@ -69,7 +67,6 @@ public class EmployeeRepo implements IEmployeeRepo {
             stringList.add(e.getInfoCSV());
         }
         ReadAndWriteFile.writeFromFile(EMPLOYEE_PROFILE, stringList, false);
-
     }
 
     @Override

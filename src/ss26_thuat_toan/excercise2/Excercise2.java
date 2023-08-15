@@ -27,11 +27,7 @@ public class Excercise2 {
                 }
             }
         }
-//        for (int i = 0; i < newString3.size() - 1; i++) {
-//            if (newString3.get(i) == newString3.get(i + 1)) {
-//                newString3.remove(newString3.get(i));
-//            }
-//        }
+
         int result = newString3.size();
         return result;
     }

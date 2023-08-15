@@ -18,7 +18,8 @@ public interface IFacilityRepo {
     void addHouse(House house, Integer integer);
 
     void addRoom(Room room, Integer integer);
-    void addVilaa(Villa villa,Integer integer);
+
+    void addVilaa(Villa villa, Integer integer);
 
     void deleteHouse(House key);
 
@@ -27,6 +28,7 @@ public interface IFacilityRepo {
     void deleteFacility(Facility key);
 
     void displayListMaintainance();
+
     Facility searchKey();
 
     Facility searchKey(String id);
